@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  outline: none;
+}
+
+.time {
+  margin: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn {
+  margin: 0 10px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #d83d3d;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease-in;
+}
+
+.btn:active {
+  transform: scale(0.9);
+  transition: transform 0.1s ease-in;
+}
+
+.btn:disabled {
+  transform: none;
+  background-color: #fd7272;
+}
+
+.drag-container {
+  margin: 30px auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drag {
+  width: 402px;
+  height: 402px;
+  border-radius: 5px;
+  background-color: lavender;
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.puzzle {
+  position: relative;
+  background-image: url("./arsenal.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.modal-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+.modal {
+  width: 500px;
+  height: 150px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.modal h2 {
+  margin-top: 0px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn-check {
+  display: none;
+  background-color: #116e0e;
+}
+
+.btn-modal {
+  margin-top: 20px;
+}
+
+
+
+.hover {
+  background-color: antiquewhite;
+}
+
+.hide {
+  display: block;
+}
+
+.btn-hide {
+  display: inline-block;
+}
+
+.z-max {
+  z-index: 100;
+}
